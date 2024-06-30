@@ -9,11 +9,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         Map<String, Team> teams = new HashMap<>();
-        String input = scanner.nextLine();
+        String inputCommand = scanner.nextLine();
 
-        while (!input.equals("END")) {
+        while (!inputCommand.equals("END")) {
 
-        String[] command = input.trim().split(";");
+        String[] command = inputCommand.trim().split(";");
         String name = command[1];
 
             switch (command[0]) {
@@ -63,7 +63,7 @@ public class Main {
                     }
                 }
             }
-            input = scanner.nextLine();
+            inputCommand = scanner.nextLine();
         }
     }
 }

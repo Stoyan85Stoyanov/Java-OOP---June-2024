@@ -1,4 +1,4 @@
-package _05_Polymorphism_Exercises._04_Calculator;
+package _05_Polymorphism_Exercises._04_Calculator_;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

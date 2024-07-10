@@ -1,14 +1,14 @@
-package _05_Polymorphism_Exercises._04_Calculator;
+package _05_Polymorphism_Exercises._04_Calculator_;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MultiplicationOperation implements Operation {
+public class DivisionOperation implements Operation {
 
     private final List<Integer> operands;
     private int result;
 
-    public MultiplicationOperation() {
+    public DivisionOperation() {
         this.operands = new ArrayList<>();
     }
 
@@ -17,7 +17,7 @@ public class MultiplicationOperation implements Operation {
         this.operands.add(operand);
 
         if (this.isCompleted()) {
-            this.result = this.operands.get(0) * this.operands.get(1);
+            this.result = this.operands.get(0) / this.operands.get(1);
         }
     }
 

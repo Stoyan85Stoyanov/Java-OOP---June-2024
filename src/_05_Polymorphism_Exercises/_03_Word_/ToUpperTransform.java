@@ -1,4 +1,4 @@
-package _05_Polymorphism_Exercises._03_Word;
+package _05_Polymorphism_Exercises._03_Word_;
 
 public class ToUpperTransform implements TextTransform {
 

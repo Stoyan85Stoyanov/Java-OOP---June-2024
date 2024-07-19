@@ -32,7 +32,6 @@ public class _01_NumberInRange {
                 System.out.println("Invalid number: " + input);
             }
         }
-
         System.out.println("Valid number: " + number);
     }
 }

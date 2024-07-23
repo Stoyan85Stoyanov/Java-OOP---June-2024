@@ -48,7 +48,6 @@ public class _03_EnterNumbers {
          if (number <= start || number >= end) {
              throw new NumberRangeException("Your number is not in range " + start + " - 100!");
          }
-
          return number;
     }
 }

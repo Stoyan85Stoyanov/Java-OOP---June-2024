@@ -22,6 +22,7 @@ public class _02_SquareRoot {
 
     }
     public static double sqrt (double number) {
+
         if (number <= 0) {
             throw new NumberFormatException("Invalid");
         }
